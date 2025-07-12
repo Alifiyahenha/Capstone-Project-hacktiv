@@ -1,4 +1,3 @@
-# Capstone-Project-hacktivDeskripsi Proyek
 WEB BACAINFO adalah sebuah aplikasi berbasis web yang menampilkan dan mengelola berbagai artikel atau berita. Platform ini menyediakan sistem manajemen konten sederhana yang memungkinkan admin untuk membuat, membaca, mengedit, dan menghapus artikel, kategori, dan penulis.
 Aplikasi ini dikembangkan dengan bantuan AI IBM Granite dalam tahap pengkodean, khususnya untuk mempercepat proses logika PHP, styling, dan struktur HTML.
 Teknologi yang Digunakan
