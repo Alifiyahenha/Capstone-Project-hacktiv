@@ -1,31 +1,42 @@
-WEB BACAINFO adalah sebuah aplikasi berbasis web yang menampilkan dan mengelola berbagai artikel atau berita. Platform ini menyediakan sistem manajemen konten sederhana yang memungkinkan admin untuk membuat, membaca, mengedit, dan menghapus artikel, kategori, dan penulis.
-Aplikasi ini dikembangkan dengan bantuan AI IBM Granite dalam tahap pengkodean, khususnya untuk mempercepat proses logika PHP, styling, dan struktur HTML.
-Teknologi yang Digunakan
-• HTML, CSS – tampilan antarmuka
-• PHP (native) – logika server-side
-• MySQL – penyimpanan data
-• Laragon / Hosting – sebagai environment lokal/server
-• AI IBM Granite – digunakan untuk membantu menulis kode dan struktur halaman
-Fitur-Fitur:
-• Menampilkan daftar artikel
-• Menampilkan detail artikel berdasarkan ID
-• Menambah artikel baru
-• Mengedit artikel yang sudah ada
-• Menghapus artikel
-• Manajemen kategori dan penulis
-• Halaman dashboard admin
-Instruksi Instalasi
-• Clone atau unduh repository proyek ini.
-• Import file database ke dalam phpMyAdmin.
-• Letakkan folder proyek ke dalam folder htdocs jika menggunakan Laragon.
-• Sesuaikan konfigurasi koneksi database pada file koneksi.php.
-Akses aplikasi melalui browser:
-http://localhost/WEB BACAINFO/
-atau hosting yang digunakan.
-Penjelasan Dukungan AI
-Proyek ini memanfaatkan AI IBM Granite dalam fase pengembangan untuk:
-• Membantu menghasilkan struktur HTML secara lebih cepat.
-• Menulis logika dasar PHP seperti CRUD dan pengolahan input.
-• Menyusun bagian frontend dengan CSS responsif.
-• Mengoptimalkan query dan struktur database.
-• AI tidak diintegrasikan ke dalam sistem akhir, melainkan hanya digunakan sebagai asisten pengembang selama proses pembuatan aplikasi.
+# WEB BACAINFO
+
+## Project Title
+WEB BACAINFO – Aplikasi Web CRUD Artikel Berbasis PHP & MySQL
+
+## Description
+WEB BACAINFO adalah aplikasi web yang digunakan untuk mengelola dan menampilkan berbagai artikel atau berita. Pengguna dapat melihat daftar artikel secara publik, sementara admin memiliki akses ke dashboard untuk menambah, mengedit, dan menghapus artikel, kategori, serta penulis. Aplikasi ini dirancang untuk memberikan pengalaman manajemen konten sederhana dan responsif.
+
+## Technologies Used
+- **HTML & CSS** – untuk tampilan antarmuka
+- **PHP Native** – sebagai backend
+- **MySQL** – untuk penyimpanan data
+- **JavaScript** – untuk interaktivitas dasar 
+- **Web Hosting (infinityfree / rf.gd)** – untuk deployment
+- **AI IBM Granite** – digunakan selama proses pengembangan
+
+## Features
+- Menampilkan daftar artikel publik
+- Menampilkan detail artikel berdasarkan ID
+- CRUD (Create, Read, Update, Delete) artikel
+- CRUD kategori dan penulis
+- Halaman admin dashboard
+- Tampilan responsif dan sederhana
+
+## Setup Instructions
+1. Clone atau download repository proyek ini.
+2. Import file database (`.sql`) ke dalam MySQL menggunakan phpMyAdmin.
+3. Letakkan folder proyek ke dalam direktori `htdocs` jika menggunakan XAMPP.
+4. Ubah konfigurasi koneksi database di file `koneksi.php` sesuai dengan server kamu.
+5. Jalankan aplikasi melalui browser:
+   - Jika lokal: `http://localhost/WEB BACAINFO/`
+   - Jika online: `https://alifiyahenha.rf.gd`
+
+## AI Support Explanation
+Proyek ini memanfaatkan AI IBM Granite selama proses pengembangan untuk:
+- Membantu membangun struktur halaman HTML dan styling CSS dengan cepat.
+- Membantu menulis dan menyusun logika PHP terutama fungsi CRUD.
+- Membantu menghasilkan query SQL yang efisien dan mengelola struktur database.
+- Memberikan insight untuk memperbaiki struktur kode agar lebih optimal dan terstruktur.
+
+AI hanya digunakan dalam proses development, **tidak disertakan dalam sistem akhir** yang di-deploy.
+
